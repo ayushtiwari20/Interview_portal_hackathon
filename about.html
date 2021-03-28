@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+	<div class="w3-top">
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>&#9650</b></a>
+    <a href="companies.php" class="w3-bar-item w3-button">Companies</a>
+    <a href="about.html" class="w3-bar-item w3-button">Contact Us</a>
+   
+    <form action="search.php" method="GET">
+    <input class="w3-bar-item w3-border" size="40" type="text" placeholder="type here to search..." name="search">
+    <button class="w3-button w3-bar-item" type="submit" name="submit" value="search"><i class="fa fa-search"></i></button>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      
+  
+     <a href="logout.php" class="w3-bar-item w3-button">Logout</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+</form>
+</div>
+</div>
+
+<div class="about-section">
+  <h1><b>About Interview Prep</b></h1>
+  <p>Interview Prep is a one-step solution if you're looking to enhance your coding skills, logical approach, DSA knowledge, Competitive Programming.
+
+The Courses offered at Interview Prep come with the most high-grade video lectures, mentors providing individual attention to the mentees, live coding sessions every week, discussions regarding last CodeChef contests. It would foster your problem-solving skills, optimizing complexity and choosing the appropriate data structure to solve the problem.
+
+<p>The learning environment is very positive, competitive, and motivating which would eventually help you to become a good coder by the end of the course.</p>
+
+
+  
+</div>
+
+<h2 style="text-align:center">Our Team</h2><hr></hr>
+<table width="100%">
+	<tr>
+		<td><div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="ayush.jpg" alt="Ayush Tiwari" style="width:100%">
+      <div class="container">
+        <h2>Ayush Tiwari</h2>
+        <p class="title">Co-Founder @ Interviw Prep</p>
+         <p>Student at TCET</p> 
+          <p>ayush.tiwari@gmail.com</p>      
+        <p><a href="https://www.linkedin.com/in/ayush-tiwari-33b65b19a/"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <img src="suraj.jpg" alt="Suraj Tiwari" style="width:100%">
+      <div class="container">
+        <h2>Suraj Tiwari</h2>
+        <p class="title">Co-Founder @ Interview Prep</p>
+        <p>Student at TCET</p>
+        <p>suraj.tiwari99@gmail.com</p>
+        <p><a href="https://www.facebook.com/suraj.tiwar.54"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  </td>
+</tr>
+</table>
+
+</body>
+</html>
